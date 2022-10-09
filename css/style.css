@@ -7,9 +7,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey: #F2F2F2;
+}
+
 body {
     max-width: 1440px;
     margin: auto;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 120%;
 }
 
 header {
@@ -52,6 +66,95 @@ header img {
     width: 125px;
 }
 
+/************************************
+*       Titre + Recherche-box       *
+************************************/
+
 h1 {
     margin-bottom: 0px;
+}
+
+.soustitle {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.recherche-box {
+    display: inline-block;
+    border: 1px solid var(--grey);
+    border-radius: 15px;
+    width: auto;
+}
+
+.recherche-box .fa-map-marker-alt {
+    display: inline-block;
+    padding: 14px;
+    height: 58px;
+    font-size: 23px;
+    background-color: var(--grey);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.recherche-box input {
+    outline: none;
+    height: 52px;
+    margin-left: -5px;
+    border: none;
+    padding: 10px;
+}
+
+.recherche-box button {
+    background-color: var(--blue);
+    color: white;
+    height: 58px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.recherche-box button .fa-search {
+    display: none;
+}
+
+/************************************
+*              Filtres              *
+************************************/
+
+#filtrer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#filtrer .filtre-box {
+    margin: 0px 10px;
+    border-radius: 30px;
+    border: 2px solid var(--grey);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#filtrer .filtre-box i {
+    background-color: var(--light-blue);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filtrer .filtre-box:hover {
+    transition: background-color 0.3s;
+    background-color: var(--light-blue);
+}
+
+#filtrer .filtre-box .text {
+    padding: 0px 10px;
 }
