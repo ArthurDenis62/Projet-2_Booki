@@ -230,6 +230,7 @@ h1 {
 
 .hebergement-list a article:hover {
     box-shadow: 5px 5px 5px 0px #E2E2E2;
+    transform: translateY(-15px);
 }
 
 .hebergement-list a article .fa-star.blue {
