@@ -43,6 +43,7 @@ header nav ul li {
 
 #hebergement .marseille {
     order: 2;
+    height: 1870px;
 }
 
 #hebergement .populaire {
@@ -57,12 +58,21 @@ header nav ul li {
     width: 100%;
 }
 
+#hebergement .marseille .hebergement-list-pop {
+    flex-direction: column;
+}
+
+#hebergement .marseille .hebergement-list-pop a {
+    width: 100%;
+}
+
 #activite .activite-list .column {
     width: 100%;
 }
 
 .activite-list .column article,
-.activite-list .column.double article {
+.activite-list .column.double article,
+.activite-list .column.double-min  article {
     height: 250px;
     margin-bottom: 20px;
 }
