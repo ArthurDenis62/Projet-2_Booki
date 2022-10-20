@@ -146,6 +146,7 @@ h1 {
     cursor: pointer;
     transition: background-color 1s;
     width: 216px;
+    border-left: none;
 }
 
 #filtrer .filtre-box i {
