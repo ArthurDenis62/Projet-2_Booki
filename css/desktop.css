@@ -279,12 +279,12 @@ h1 {
 *            Marseille              *
 ************************************/
 
-#hebergement .marseille {
+#hebergement .ville {
     width: 62%;
     height: 725px;
 }
 
-#hebergement .marseille .soustitle {
+#hebergement .ville .soustitle {
     font-weight: bold;
     font-size: 120%;
 }

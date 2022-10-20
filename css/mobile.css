@@ -41,7 +41,7 @@ header nav ul li {
     align-items: flex-start;
 }
 
-#hebergement .marseille {
+#hebergement .ville {
     order: 2;
     height: 1870px;
 }
@@ -50,19 +50,19 @@ header nav ul li {
     order: 1;
 }
 
-#hebergement .marseille .hebergement-list {
+#hebergement .ville .hebergement-list {
     flex-direction: column;
 }
 
-#hebergement .marseille .hebergement-list a {
+#hebergement .ville .hebergement-list a {
     width: 100%;
 }
 
-#hebergement .marseille .hebergement-list-pop {
+#hebergement .ville .hebergement-list-pop {
     flex-direction: column;
 }
 
-#hebergement .marseille .hebergement-list-pop a {
+#hebergement .ville .hebergement-list-pop a {
     width: 100%;
 }
 
