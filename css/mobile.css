@@ -68,6 +68,7 @@ header nav ul li {
 
 #activite .activite-list .column {
     width: 100%;
+    height: 0%;
 }
 
 .activite-list .column article,
